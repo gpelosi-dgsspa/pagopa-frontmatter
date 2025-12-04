@@ -1,0 +1,27 @@
+# AI/LLM Providers
+google-generativeai>=0.3.0,<1.0.0
+openai>=1.0.0,<2.0.0
+anthropic>=0.7.0,<1.0.0
+
+# Frontmatter and Markdown
+python-frontmatter>=1.0.0,<2.0.0
+
+# Configuration and Environment
+python-dotenv>=1.0.0,<2.0.0
+PyYAML>=6.0.1,<7.0.0  # CVE-2020-14343 fixed in 5.4+, using 6.0.1 for stability
+
+# Database & Embeddings
+# Retrieval
+redis>=5.0.0
+redisearch>=2.0.0
+redisvl
+numpy>=1.24.0
+pydantic>=2.0.0
+sentence-transformers>=2.2.0,<3.0.0
+
+# RDF and Schema.org
+rdflib>=6.0.0,<8.0.0
+
+# GitHub Integration
+PyGithub>=2.0.0,<3.0.0
+GitPython>=3.1.30,<4.0.0  # Security: minimum version for vulnerability fixes

@@ -1,0 +1,11 @@
+{
+  "redis_host": "localhost",
+  "redis_port": 6379,
+  "redis_index": "idx:docs",
+  "redis_prefix": "doc:",
+  "distance": "COSINE",
+  "dims": 384,
+  "sbert_model": "all-MiniLM-L6-v2",
+  "count": 919,
+  "generated_at": "2025-11-27T13:00:50.367101+00:00"
+}
